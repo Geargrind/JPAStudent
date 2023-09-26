@@ -11,5 +11,7 @@ public interface StudentRepository extends JpaRepository<Student, Integer> {
 
     List<Student> findAllByName(String name); //JPQL
 
+    List<Student> findAll();
+
 
 }
